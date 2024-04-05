@@ -1,4 +1,6 @@
-#include "pch.h"
+#include <string>
+#include <map>
+#include <fstream>
 #include "dotenv.h"
 __declspec(dllexport) void dotenv::load_dotenv(const std::string &&string)
 {

@@ -1,4 +1,6 @@
-#include "pch.h"
+#include <string>
+#include <fstream>
+#include <map>
 #include "dotenv.h"
 
 void dotenv::load_dotenv(const std::string &&string)
