@@ -396,3 +396,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+*.sln
+*.vcxproj
+*.filters
+./dotenvStatic
+./dotenvStatic/scr
+./dotenvDynamic
+./dotenvDynamic/scr

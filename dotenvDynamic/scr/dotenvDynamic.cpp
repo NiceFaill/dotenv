@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "dotenv.h"
-
-void dotenv::load_dotenv(const std::string &&string)
+__declspec(dllexport) void dotenv::load_dotenv(const std::string &&string)
 {
 	std::ifstream file(string);
 	if (file.is_open())
@@ -26,7 +25,7 @@ void dotenv::load_dotenv(const std::string &&string)
 	}
 }
 
-std::string dotenv::getenv(const std::string &&string)
+__declspec(dllexport) std::string dotenv::getenv(const std::string &&string)
 {
 	auto it = envMap.find(string);
 	if (it != envMap.end())
