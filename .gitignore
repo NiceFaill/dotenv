@@ -27,7 +27,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
@@ -400,7 +399,10 @@ FodyWeavers.xsd
 *.sln
 *.vcxproj
 *.filters
+dotenvDynamic/dotenvDynamic
+dotenvStatic/dotenvStatic
 ./dotenvStatic
 ./dotenvStatic/scr
 ./dotenvDynamic
 ./dotenvDynamic/scr
+scr
